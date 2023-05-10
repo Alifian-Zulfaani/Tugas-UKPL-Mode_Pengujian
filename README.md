@@ -4,7 +4,7 @@
 - Anak-anak: 0 <= umur < 12
 - Remaja: 12 <= umur < 18
 - Dewasa: 18 <= umur < 60
-- Lansia: usia >= 60
+- Lansia: umur >= 60
 
 #### Kemudian, kita menentukan test case berdasarkan Boundary Value Analysis dengan memperhatikan batas-batas nilai umur yang mungkin, yaitu -1, 0, 11, 12, 17, 18, 59, 60, 100, dan 101. Test case ini kemudian disimpan dalam variabel test_cases.
 

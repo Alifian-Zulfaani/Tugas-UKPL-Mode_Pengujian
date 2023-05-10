@@ -1,6 +1,9 @@
 # Tugas-UKPL-Mode_Pengujian
 
-## File mode_pengujian.py adalah file inti yang dapat diganti nilai argumen/variabelnya dan dirun, karena file boundary_value_analysis.py dan state_transition_testing.py adalah file racikan mode pengujiannya.
+<div style="text-align: justify">
+    ## File mode_pengujian.py adalah file inti yang dapat diganti nilai argumen/variabelnya dan dirun, karena file boundary_value_analysis.py dan state_transition_testing.py adalah file racikan mode pengujiannya.
+</div>
+
 
 + ### ***boundary_value_analysis.py***
 <div dir="rtl">

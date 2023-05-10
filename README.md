@@ -1,5 +1,5 @@
 # Tugas-UKPL-Mode_Pengujian
-## File mode_pengujian.py adalah file inti yang dapat diganti nilai argumen/variabelnya dan dirun, karena file boundary_value_analysis.py dan state_transition_testing.py adalah file racikan mode pengujiannya.
+<dd>## File mode_pengujian.py adalah file inti yang dapat diganti nilai argumen/variabelnya dan dirun, karena file boundary_value_analysis.py dan state_transition_testing.py adalah file racikan mode pengujiannya.</dd>
 
 + ### ***boundary_value_analysis.py***
 #### dideklarasikan fungsi "boundary_value_analysis" yang menerima enam parameter sebagai masukan yaitu "param1_min", "param1_max", "param2_min", "param2_max", "param3_min", dan "param3_max". Fungsi ini digunakan untuk menghasilkan test case dengan teknik pengujian Boundary Value Analysis.

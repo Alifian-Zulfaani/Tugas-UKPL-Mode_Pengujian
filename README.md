@@ -49,12 +49,11 @@
 <div style="text-align: justify">
     Dengan menggunakan test case yang dihasilkan, dapat dilakukan pengujian pada fungsi atau program yang menggunakan state dan transisi dengan teknik State Transition Testing.
 </div>
-
 <br />
 
 ### ***3. mode_pengujian.py***
 <div style="text-align: justify">
-    Ini adalah file inti yang akan dirun untuk melakukan 2 mode pengujian, boundary_value_analysis dan state_transition_testing
+    Ini adalah file inti yang akan dirun untuk melakukan 2 mode pengujian, boundary_value_analysis dan state_transition_testing.
 </div>
 
 - Pertama, program mengimport fungsi boundary_value_analysis dan state_transition_testing dari file boundary_value_analysis.py dan state_transition_testing.py secara berurutan.
@@ -63,3 +62,9 @@
 - Setelah itu, program mendefinisikan variabel states, transitions, dan initial_state yang merepresentasikan keadaan awal dan transisi antara keadaan-keadaan yang ada pada suatu sistem.
 - Kemudian, fungsi state_transition_testing dipanggil dengan argumen states, transitions, dan initial_state dan nilai kembaliannya disimpan dalam variabel state_test_cases.
 - Terakhir, variabel state_test_cases dicetak ke layar.
+<br />
+
+### ***4. setelah file mode_pengujian.py dirun***
+<div style="text-align: justify">
+    Setelah file mode_pengujian.py dirun akan dibuat secara otomatis folder dengan nama "pycache". Pycache adalah folder yang digunakan oleh Python untuk menyimpan file-byte-compiled (.pyc) yang dihasilkan ketika menjalankan program Python. File-file ini disimpan di folder "pycache" agar dapat digunakan kembali ketika program dijalankan lagi. Python akan menggunakan file-byte-compiled jika tersedia untuk menghindari kompilasi ulang kode Python saat program dijalankan kembali.
+</div>

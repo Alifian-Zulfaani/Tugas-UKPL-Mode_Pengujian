@@ -18,7 +18,10 @@
 
 
 + ### ***state_transition_testing.py***
-#### Dideklarasikan sebuah class dengan nama StateTransitionTest, yang memiliki beberapa metode atau fungsi:
+<div style="text-align: justify">
+    Dideklarasikan sebuah class dengan nama StateTransitionTest, yang memiliki beberapa metode atau fungsi:
+</div>
+
 - Pada method __init__(), terdapat beberapa parameter yaitu states, transitions, dan initial_state. Parameter states merepresentasikan kumpulan state/state yang ada pada sistem yang akan diuji, transitions merepresentasikan transisi antar state, dan initial_state merepresentasikan state awal ketika testing dilakukan.
 
 - Pada method reset(), fungsi ini digunakan untuk mengembalikan nilai dari current_state ke initial_state.
@@ -27,7 +30,10 @@
 
 - Pada method execute_transition(), fungsi ini digunakan untuk mengecek apakah transisi yang akan dilakukan benar atau tidak dengan memeriksa apakah transisi tersebut ada di dalam transitions state yang sedang diproses. Jika transisi ada, maka current_state akan diubah sesuai dengan transisi yang dipilih dan fungsi akan mengembalikan nilai True. Jika transisi tidak ada, maka current_state tidak berubah dan fungsi akan mengembalikan nilai False.
 
-#### Fungsi ini akan berguna ketika melakukan pengujian dengan metode state transition testing, dimana StateTransitionTest akan digunakan untuk membangkitkan test case dari semua kemungkinan transisi pada sistem yang akan diuji.
+<div style="text-align: justify">
+Fungsi ini akan berguna ketika melakukan pengujian dengan metode state transition testing, dimana StateTransitionTest akan digunakan untuk membangkitkan test case dari semua kemungkinan transisi pada sistem yang akan diuji.
+</div>
+
 
 #### Dideklarasikan juga fungsi "state_transition_testing" yang menerima tiga parameter sebagai masukan yaitu "states", "transitions", dan "initial_state". Fungsi ini digunakan untuk menghasilkan test case dengan teknik pengujian State Transition Testing.
 

@@ -31,11 +31,13 @@
 - Pada method execute_transition(), fungsi ini digunakan untuk mengecek apakah transisi yang akan dilakukan benar atau tidak dengan memeriksa apakah transisi tersebut ada di dalam transitions state yang sedang diproses. Jika transisi ada, maka current_state akan diubah sesuai dengan transisi yang dipilih dan fungsi akan mengembalikan nilai True. Jika transisi tidak ada, maka current_state tidak berubah dan fungsi akan mengembalikan nilai False.
 
 <div style="text-align: justify">
-Fungsi ini akan berguna ketika melakukan pengujian dengan metode state transition testing, dimana StateTransitionTest akan digunakan untuk membangkitkan test case dari semua kemungkinan transisi pada sistem yang akan diuji.
+    Fungsi ini akan berguna ketika melakukan pengujian dengan metode state transition testing, dimana StateTransitionTest akan digunakan untuk membangkitkan test case dari semua kemungkinan transisi pada sistem yang akan diuji.
 </div>
 
+<div style="text-align: justify">
+    Dideklarasikan juga fungsi "state_transition_testing" yang menerima tiga parameter sebagai masukan yaitu "states", "transitions", dan "initial_state". Fungsi ini digunakan untuk menghasilkan test case dengan teknik pengujian State Transition Testing.
+</div>
 
-#### Dideklarasikan juga fungsi "state_transition_testing" yang menerima tiga parameter sebagai masukan yaitu "states", "transitions", dan "initial_state". Fungsi ini digunakan untuk menghasilkan test case dengan teknik pengujian State Transition Testing.
 
 #### 1. Pertama-tama, variabel "test_cases" dideklarasikan sebagai sebuah list kosong. Kemudian, kode membuat sebuah objek "StateTransitionTest" dengan menggunakan tiga parameter input: "states", "transitions", dan "initial_state". Objek "StateTransitionTest" ini digunakan untuk melakukan pengujian pada setiap transisi.
 
@@ -49,7 +51,9 @@ Fungsi ini akan berguna ketika melakukan pengujian dengan metode state transitio
 
 
 + ### ***mode_pengujian.py***
-#### Ini adalah file inti yang akan dirun untuk melakukan 2 mode pengujian, boundary_value_analysis dan state_transition_testing
+<div style="text-align: justify">
+    Ini adalah file inti yang akan dirun untuk melakukan 2 mode pengujian, boundary_value_analysis dan state_transition_testing
+</div>
 
 #### 1. Pertama, program mengimport fungsi boundary_value_analysis dan state_transition_testing dari file boundary_value_analysis.py dan state_transition_testing.py secara berurutan.
 #### 2. Kemudian, fungsi boundary_value_analysis dipanggil dengan argumen 1, 10, 20, 30, 100, 200 dan nilai kembaliannya disimpan dalam variabel boundary_test_cases.
